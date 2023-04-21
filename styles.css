@@ -1,0 +1,106 @@
+body {
+    background-image: url(images/background.jpg);
+    margin: 0%;
+    background-size: 100%;
+    
+
+
+}
+
+h1 {
+    text-align: center;
+    background-color:#8FBC8F;
+    color: white;
+}
+
+.nav-background {
+    background-image: url(images/list-note.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.homepage-header {
+    font-family:"Merienda";
+    position: relative;left: 145px;
+    position: relative;top: 63px;
+    font-size: 25px;
+    color: white;
+
+
+}
+
+.list-nav {
+
+    font-family: 'Helvetica';
+    list-style-type:none;
+    font-weight: 150;
+    padding-top: 148px;
+    position:relative;left: 30px;
+    position: relative;top: -75px;
+    line-height: 3;
+    font-size: 17px;
+    letter-spacing: 0.9px;
+    
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #8FBC8F;
+}
+
+a:visited {
+    color: #455845;
+}
+
+.top-container {
+    text-align: center;
+}
+
+.dscp {
+    background-color: #8FBC8F;
+    border-radius: 30px;
+    width: 20%;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+}
+
+.ingr {
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 1.5%;
+
+    
+}
+
+.steps {
+    color:black;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 1.5%;
+
+}
+
+
+
+h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.content {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 5%;
+    size: 50%;
+    margin: 5%;
+}
